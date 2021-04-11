@@ -310,7 +310,7 @@ button {
     padding-left: 20px; }
   @media (max-width: 800px) {
     .main-cards__item {
-      padding: 30px 0; }
+      padding: 30px 0 50px 0; }
       .main-cards__item .img1, .main-cards__item .img2 {
         padding: 0 20px; }
       .main-cards__item .text1, .main-cards__item .text2 {
@@ -339,7 +339,8 @@ button {
 
 footer {
   background-color: #212529;
-  box-shadow: 10px 10px 21px #d3d3d6, -10px -10px 21px #d3d3d6;
+  box-shadow: 10px 10px 21px #d3d3d6,
+ -10px -10px 21px #d3d3d6;
   margin-top: 40px; }
 
 .footer-wrapper {
