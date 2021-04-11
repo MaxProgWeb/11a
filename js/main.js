@@ -1,4 +1,7 @@
 $(document).ready( function() {
+    $('.menu__btn').click(function(event){
+            $('body').toggleClass('lock');
+    });
     $('.slider').slick({
         arrows:false,
         dots:true,
@@ -33,9 +36,7 @@ $(document).ready( function() {
             }
         ]
     });
-    $('.menu__btn').click(function(event){
-            $('body').toggleClass('lock');
-    });
+    
 });
 function myFunction() {
     var x = document.getElementById("myLinks");
