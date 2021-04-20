@@ -21,7 +21,9 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   outline: none; }
-
+body{
+  background-color: #f0f0f3;
+}
 ul, li, a {
   list-style: none;
   text-decoration: none; }
@@ -357,3 +359,29 @@ footer {
     color: #f8f9fa; }
   .footer-wrapper .footer-dev span {
     color: #d1d1d1; }
+
+.pupiles{
+  margin-top: 40px;
+}
+.pupiles__card{
+  margin-bottom: 40px;
+  border-radius: 50px;
+}
+.pupiles__card:hover{
+  transform: scale(1.01);
+  transition: .3s;
+}
+.btn__more:hover{
+  transform: scale(1.05);
+  transition: .2s;
+}
+.card img{
+  border-top-left-radius:calc(1.25rem - 1px);
+  border-top-right-radius:calc(1.25rem - 1px);
+}
+.pupiles__card .card{
+  border-radius:calc(1.25rem - 1px);
+  background-color: #f0f0f3;
+  box-shadow: 10px 10px 21px #d3d3d6,
+              -10px -10px 21px #fff;
+}
